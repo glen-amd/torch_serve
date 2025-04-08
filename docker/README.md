@@ -137,25 +137,25 @@ Creates a docker image with `torchserve` and `torch-model-archiver` installed fr
 ./build_image.sh -bt dev -g -cv cu92
 ```
 
-- For creating GPU based image with rocm version 6.0:
+- For creating GPU based image with ROCm version 6.0:
 
 ```bash
 ./build_image.sh -bt dev -g -rv rocm6.0
 ```
 
-- For creating GPU based image with rocm version 6.1:
+- For creating GPU based image with ROCm version 6.1:
 
 ```bash
 ./build_image.sh -bt dev -g -rv rocm6.1
 ```
 
-- For creating GPU based image with rocm version 6.2:
+- For creating GPU based image with ROCm version 6.2:
 
 ```bash
 ./build_image.sh -bt dev -g -rv rocm6.2
 ```
 
-- For creating GPU based image with rocm version 6.3:
+- For creating GPU based image with ROCm version 6.3:
 
 ```bash
 ./build_image.sh -bt dev -g -rv rocm6.3
